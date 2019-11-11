@@ -27,4 +27,7 @@ let g:ale_fixers = {
 \       'prettier',
 \       'eslint',
 \   ],
+\   'json': [
+\       'prettier',
+\   ],
 \}
