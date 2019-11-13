@@ -16,6 +16,12 @@ let g:ale_linters = {
 \       'eslint',
 \       'vls',
 \   ],
+\   'css': [
+\       'stylelint',
+\   ],
+\   'scss': [
+\       'stylelint',
+\   ],
 \}
 
 let g:ale_fixers = {
@@ -29,5 +35,13 @@ let g:ale_fixers = {
 \   ],
 \   'json': [
 \       'prettier',
+\   ],
+\   'css': [
+\       'prettier',
+\       'stylelint',
+\   ],
+\   'scss': [
+\       'prettier',
+\       'stylelint',
 \   ],
 \}
