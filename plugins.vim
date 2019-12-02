@@ -9,6 +9,7 @@ packadd! matchit
 call plug#begin('~/.vim/plugged')
 " Note: since v1.0.0-beta - external editorconfig core library is NOT required
 "   https://github.com/editorconfig/editorconfig-vim/releases/tag/v1.0.0-beta
+"   * 5df91ec Add back in the option of using an external core (#128)
 Plug 'editorconfig/editorconfig-vim'
 
 " Note: External fzf required
