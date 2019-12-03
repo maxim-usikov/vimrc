@@ -1,2 +1,9 @@
 *
+
 !.gitignore
+
+!backup/
+!netrw/
+!swap/
+!undo/
+!view/
