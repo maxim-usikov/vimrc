@@ -11,10 +11,23 @@ let g:ale_javascript_eslint_suppress_eslintignore = 1
 " Note: for nvim only!
 " let g:ale_virtualtext_cursor = 1
 
+let g:ale_linter_aliases = {
+\     'vue': [
+\         'vue',
+\         'html',
+\         'css',
+\         'javascript',
+\    ],
+\}
+
 let g:ale_linters = {
 \   'vue': [
 \       'eslint',
 \       'vls',
+\       'stylelint',
+\   ],
+\   'html': [
+\       'stylelint',
 \   ],
 \   'css': [
 \       'stylelint',
@@ -32,9 +45,14 @@ let g:ale_fixers = {
 \   'vue': [
 \       'prettier',
 \       'eslint',
+\       'stylelint',
 \   ],
 \   'json': [
 \       'prettier',
+\   ],
+\   'html': [
+\       'prettier',
+\       'stylelint',
 \   ],
 \   'css': [
 \       'prettier',
