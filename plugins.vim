@@ -12,7 +12,9 @@ call plug#begin('~/.vim/plugged')
 "   * 5df91ec Add back in the option of using an external core (#128)
 Plug 'editorconfig/editorconfig-vim'
 
-" Note: External fzf required
+" Note: fzf installed with Homebrew
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 
 " Note: Syntax highlight
