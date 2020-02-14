@@ -8,6 +8,8 @@ set runtimepath+=/usr/local/opt/fzf
 
 let $FZF_DEFAULT_COMMAND = 'ag --hidden -l -g ""'
 
+let g:fzf_buffers_jump = 1
+
 command! -bang -nargs=* Ag
   \ call fzf#vim#ag(<q-args>,
   \                 <bang>0 ? fzf#vim#with_preview('up:60%')
