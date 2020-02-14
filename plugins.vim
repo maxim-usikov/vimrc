@@ -1,7 +1,7 @@
 " Vim plugins
 " Author:       Maxim Usikov <mu.usikov@gmail.com>
 " Maintainer:   Maxim Usikov <mu.usikov@gmail.com>
-" Last Change:  2019 Nov 01
+" Last Change:  2020 Feb 14
 
 " Note: Better "%" matcher
 packadd! matchit
@@ -25,6 +25,7 @@ Plug 'dense-analysis/ale'
 
 " Note: Git
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
 Plug 'airblade/vim-gitgutter'
 
 " Note: Table mode
