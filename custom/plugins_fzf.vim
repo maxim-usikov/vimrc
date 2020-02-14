@@ -21,10 +21,10 @@ command! -bang -nargs=* Files
   \                         : fzf#vim#with_preview('right:50%:hidden', '?'),
   \                 <bang>0)
 
-" You can set up fzf window using a Vim command (Neovim or latest Vim 8 required)
-" let g:fzf_layout = { 'window': 'enew' }
-" let g:fzf_layout = { 'window': '-tabnew' }
-" let g:fzf_layout = { 'window': 'belowright 10split enew' } "<<< LIKE IT
+
+" Starting fzf in a popup window
+" https://github.com/junegunn/fzf/blob/master/README-VIM.md#starting-fzf-in-a-popup-window
+let g:fzf_layout = { 'window': { 'width': 0.9, 'height': 0.6 } }
 
 " Mapping selecting mappings
 nmap <leader><tab> <plug>(fzf-maps-n)
