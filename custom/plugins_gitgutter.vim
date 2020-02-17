@@ -14,3 +14,13 @@ let g:gitgutter_sign_modified_removed = '~_'
 " GitGutterChange       " a changed line
 " GitGutterDelete       " at least one removed line
 " GitGutterChangeDelete " a changed line followed by at least one removed line
+"
+" GitGutterAddLine          " default: links to DiffAdd
+" GitGutterChangeLine       " default: links to DiffChange
+" GitGutterDeleteLine       " default: links to DiffDelete
+" GitGutterChangeDeleteLine " default: links to GitGutterChangeLineDefault
+"
+" GitGutterAddLineNr          " default: links to CursorLineNr
+" GitGutterChangeLineNr       " default: links to CursorLineNr
+" GitGutterDeleteLineNr       " default: links to CursorLineNr
+" GitGutterChangeDeleteLineNr " default: links to CursorLineNr
